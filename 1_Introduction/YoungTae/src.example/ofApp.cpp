@@ -12,8 +12,23 @@ void ofApp::update(){
 
 //--------------------------------------------------------------
 void ofApp::draw(){
-  ofSetColor(255,0,0);
-  ofDrawCircle(300, 300, 100);
+    ofSetColor(255, 0, 0);
+    ofDrawCircle(700, 700, 50);
+    
+    ofSetColor(0, 0, 255);
+    ofDrawRectangle(180, 180, 180, 180);
+    
+    ofSetColor(0, 255, 0);
+    ofDrawEllipse(400, 150, 150, 10);
+    
+    ofSetColor(0, 100, 180);
+    ofDrawLine(800, 800, 800, 200);
+    
+    ofSetColor(255, 100, 40);
+    ofDrawTriangle(50, 500, 10, 40, 90, 40);
+    
+    ofSetColor(250, 200, 100);
+    ofDrawBezier(100, 50, 110, 50, 190, 110, 200, 60);
 }
 
 //--------------------------------------------------------------
