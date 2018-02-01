@@ -1,5 +1,6 @@
 #include "ofApp.h"
-
+// how to upload picture!!?? I do not know how to upload my whole file here.
+// I tried to copy my code and paste the code here, and it seemed okay
 //--------------------------------------------------------------
 void ofApp::setup(){
 
