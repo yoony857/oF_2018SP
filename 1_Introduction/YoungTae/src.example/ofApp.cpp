@@ -40,7 +40,7 @@ void ofApp::keyPressed(int key){
 void ofApp::keyReleased(int key){
 
 }
-gggggg
+
 //--------------------------------------------------------------
 void ofApp::mouseMoved(int x, int y){
 
